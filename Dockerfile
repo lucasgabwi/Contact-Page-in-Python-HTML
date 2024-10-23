@@ -1,6 +1,6 @@
 FROM python:3.13.0-slim
 
-RUN pip install -r requirements.txt
+RUN pip install flask
 
 COPY . .
 
